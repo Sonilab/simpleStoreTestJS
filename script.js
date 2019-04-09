@@ -1,6 +1,7 @@
 var obj = [];
 
 function saveTest() {
+  obj = []
   let date = new Date();
   obj.push(date.getHours());
   obj.push(date.getMinutes());
